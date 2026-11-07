@@ -1,0 +1,28 @@
+name: lab_04
+description: "Lab 04 Navigation and Routing Pizza Store App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/vegetable.jpg
+    - assets/images/cheese.jpg
+    - assets/images/fries.png
